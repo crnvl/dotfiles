@@ -25,6 +25,7 @@
         "memory",
         "network",
         "pulseaudio",
+	"battery",
     ],
 
     "sway/workspaces": {
@@ -87,10 +88,10 @@
         "tooltip": false
     },
 
-    "custom/temp": {
-         "exec": "~/.config/waybar/temp",
-         "format": " {}°C",
-         "interval": 1
+    "battery": {
+	"bat": "BAT0",
+	"ac": "AC0",
+	"format": "  {capacity}%",
     },
 
     "custom/notification": {

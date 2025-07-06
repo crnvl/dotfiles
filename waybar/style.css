@@ -20,6 +20,7 @@ window#waybar {
 #memory,
 #network,
 #pulseaudio,
+#battery,
 #custom-temp,
 #custom-notification,
 #workspaces {
@@ -32,6 +33,7 @@ window#waybar {
 #memory,
 #network,
 #pulseaudio,
+#battery,
 #custom-temp,
 #custom-notification {
     margin: 6px 6px 6px 0px;
@@ -43,6 +45,7 @@ window#waybar {
 #memory,
 #network,
 #pulseaudio,
+#battery,
 #custom-temp,
 #custom-notification {
     background-color: #ddc7a1;
