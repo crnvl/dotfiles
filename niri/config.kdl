@@ -153,7 +153,7 @@ layout {
         // off
 
         // How many logical pixels the ring extends out from the windows.
-        width 1
+        width 0
 
         // Colors can be set in a variety of ways:
         // - CSS named colors: "red"
@@ -161,10 +161,10 @@ layout {
         // - CSS-like notation: "rgb(255, 127, 0)", rgba(), hsl() and a few others.
 
         // Color of the ring on the active monitor.
-        active-color "#ffb6c1"
+        active-color "#fff"
 
         // Color of the ring on inactive monitors.
-        inactive-color "#505050"
+        inactive-color "#b6b6b6"
 
         // You can also use gradients. They take precedence over solid colors.
         // Gradients are rendered the same as CSS linear-gradient(angle, from, to).

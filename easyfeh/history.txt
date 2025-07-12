@@ -1,1 +1,3 @@
 /home/aleph/.config/img/wall.png
+/home/aleph/.config/img/img.jpg
+/home/aleph/.config/img/wall.png
