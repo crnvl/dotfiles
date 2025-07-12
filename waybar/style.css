@@ -48,9 +48,9 @@ window#waybar {
 #battery,
 #custom-temp,
 #custom-notification {
-    background-color: #ddc7a1;
-    border: 2px solid #c7ab7a;
-    color: #1d2021;
+    background-color: #b6b6b6;
+    border: 2px solid #000;
+    color: #000;
 }
 
 #cpu.critical,
@@ -62,21 +62,21 @@ window#waybar {
 
 
 #tray {
-    border: 2px solid #c7ab7a;
+    border: 2px solid #000;
     margin: 6px 6px 6px 0px;
 }
 
 
 #clock {
-    background-color: #458588;
-    border: 2px solid #076678;
-    color: #ddc7a1;
+    background-color: #b6b6b6;
+    border: 2px solid #000;
+    color: #000;
 }
 
 
 #workspaces {
-    background-color: #ddc7a1;
-    border: 2px solid #c7ab7a;
+    background-color: #b6b6b6;
+    border: 2px solid #000;
     margin: 6px 6px 6px 6px;
 }
 
@@ -85,7 +85,7 @@ window#waybar {
     min-width: 0;
     box-shadow: inset 0 -3px transparent;
     padding: 2px 4px;
-    color: #1d2021;
+    color: #000;
 }
 
 @keyframes spread {
@@ -96,7 +96,7 @@ window#waybar {
 }
 
 #workspaces button.focused {
-    color: #d65d0e;
+    color: #fff;
     animation: spread .3s ease-out;
 }
 

@@ -1,0 +1,14 @@
+autologin.blob="8WJiFwWeyBGwqCmIoAFqmTB5CZF4M2HxbhyIZ5KaRIT5MQ+wAv1GtUQ1YEfmZttWUqVQLYae8sRoVUiZlxXUgTzgdCIskKLJg1OtVn/yZaSxN/MVgWqFTKF6X6Bu9SRO+yM3Euftaao2//H6c/PXZpHQI1B9uL4M2tD4dBdjkcM+w2d5YAr36F8rtVawMxy78YuA4lST8o+Ht5hihnSwm8cfWDsQJ1B5voVGmaJ+L8+wI8K/aPx8yqlb4x3nGBgS"
+autologin.canonical_username="crezoxfx"
+autologin.saved_credentials="{\"crezoxfx\":[\"crezoxfx\",\"8WJiFwWeyBGwqCmIoAFqmTB5CZF4M2HxbhyIZ5KaRIT5MQ+wAv1GtUQ1YEfmZttWUqVQLYae8sRoVUiZlxXUgTzgdCIskKLJg1OtVn/yZaSxN/MVgWqFTKF6X6Bu9SRO+yM3Euftaao2//H6c/PXZpHQI1B9uL4M2tD4dBdjkcM+w2d5YAr36F8rtVawMxy78YuA4lST8o+Ht5hihnSwm8cfWDsQJ1B5voVGmaJ+L8+wI8K/aPx8yqlb4x3nGBgS\"]}"
+app.window.state.saved=true
+app.window.position.width=1906
+app.rollback-to-sc=true
+es.send-on-startup=true
+core.clock_delta=0
+autologin.username="crezoxfx"
+app.window.position.saved=true
+app.window.position.height=1146
+storage.last-location="/home/aleph/.cache/spotify/Storage"
+es.use-lmdb=true
+app.last-launched-version="1.2.63.394.g126b0d89"
