@@ -48,7 +48,7 @@ window#waybar {
 #battery,
 #custom-temp,
 #custom-notification {
-    background-color: #b6b6b6;
+    background-color: #3b6ea5;
     border: 2px solid #000;
     color: #000;
 }
@@ -68,14 +68,14 @@ window#waybar {
 
 
 #clock {
-    background-color: #b6b6b6;
+    background-color: #3b6ea5;
     border: 2px solid #000;
     color: #000;
 }
 
 
 #workspaces {
-    background-color: #b6b6b6;
+    background-color: #3b6ea5;
     border: 2px solid #000;
     margin: 6px 6px 6px 6px;
 }
