@@ -322,6 +322,8 @@ window-rule {
 // (This example rule is commented out with a "/-" in front.)
 window-rule {
 	opacity 0.95
+	geometry-corner-radius 2
+	clip-to-geometry true
 }
 
 binds {
