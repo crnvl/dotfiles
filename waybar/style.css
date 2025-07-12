@@ -48,14 +48,14 @@ window#waybar {
 #battery,
 #custom-temp,
 #custom-notification {
-    background-color: #3b6ea5;
+    background-color: #008083;
     border: 2px solid #000;
     color: #000;
 }
 
 #cpu.critical,
 #memory.critical {
-    background-color: #ddc7a1;
+    background-color: #008083;
     border: 2px solid #c7ab7a;
     color: #c14a4a;
 }
@@ -68,14 +68,14 @@ window#waybar {
 
 
 #clock {
-    background-color: #3b6ea5;
+    background-color: #008083;
     border: 2px solid #000;
     color: #000;
 }
 
 
 #workspaces {
-    background-color: #3b6ea5;
+    background-color: #008083;
     border: 2px solid #000;
     margin: 6px 6px 6px 6px;
 }
