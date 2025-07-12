@@ -1,8 +1,8 @@
 * {
     border: none;
-    border-radius: 2;
+    border-radius: 1px;
     min-height: 0;
-    font-family: "Maple Mono NF";
+    font-family: "MS Sans Serif";
     font-weight: 500;
     font-size: 14px;
     padding: 0;
@@ -10,7 +10,7 @@
 
 
 window#waybar {
-    background: rgba(40, 40, 40, 0);
+    background-color: #c4c0c1;
 }
 
 
@@ -21,10 +21,15 @@ window#waybar {
 #network,
 #pulseaudio,
 #battery,
+#custom-grrr,
+#custom-weather, 
 #custom-temp,
 #custom-notification,
 #workspaces {
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 0px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 2px 0px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 0px 2px rgba(0,0,0,0.75);
+
 }
 
 #clock,
@@ -34,6 +39,8 @@ window#waybar {
 #network,
 #pulseaudio,
 #battery,
+#custom-grrr,
+#custom-weather,
 #custom-temp,
 #custom-notification {
     margin: 6px 6px 6px 0px;
@@ -48,36 +55,68 @@ window#waybar {
 #battery,
 #custom-temp,
 #custom-notification {
-    background-color: #008083;
-    border: 2px solid #000;
-    color: #000;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+    background-color: #c4c0c1;
+  color: #1d2021;
 }
 
 #cpu.critical,
 #memory.critical {
-    background-color: #008083;
-    border: 2px solid #c7ab7a;
-    color: #c14a4a;
+border-top: 1px solid white;
+  border-left: 1px solid white;
+
+    background-color: #c4c0c1;
+  color: #1d2021;
 }
 
 
 #tray {
-    border: 2px solid #000;
+border-top: 1px solid white;
+  border-left: 1px solid white;
+
+
     margin: 6px 6px 6px 0px;
 }
 
 
+
+
 #clock {
-    background-color: #008083;
-    border: 2px solid #000;
-    color: #000;
+border-top: 1px solid white;
+  border-left: 1px solid white;
+
+
+    background-color: #c4c0c1;
+  color: #1d2021;
+}
+
+#custom-grrr {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  margin-left: 2px;
+  background-color: #c4c0c1;
+  color: #1d2021;
+  min-width: 80px;
+}
+
+#custom-weather {
+  border-top: 1px solid white;
+  padding-top: 2px;
+  border-left: 1px solid white;
+  background-color: #c4c0c1;
+  color: #1d2021;
 }
 
 
 #workspaces {
-    background-color: #008083;
-    border: 2px solid #000;
-    margin: 6px 6px 6px 6px;
+border-top: 1px solid white;
+  border-left: 1px solid white;
+
+
+    background-color: #c4c0c1;
+  color: #1d2021;    
+  margin: 6px 6px 6px 6px;
 }
 
 #workspaces button {
@@ -85,7 +124,7 @@ window#waybar {
     min-width: 0;
     box-shadow: inset 0 -3px transparent;
     padding: 2px 4px;
-    color: #000;
+    color: #1d2021;
 }
 
 @keyframes spread {
@@ -96,7 +135,7 @@ window#waybar {
 }
 
 #workspaces button.focused {
-    color: #fff;
+    color: #008083;
     animation: spread .3s ease-out;
 }
 

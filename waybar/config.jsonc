@@ -1,5 +1,6 @@
 {
     "layer": "top",
+    "position": "bottom",
     "spacing": 0,
     "height": 0,
 
@@ -9,7 +10,9 @@
     "margin-left": 0,
 
     "modules-left": [
-        "niri/workspaces",
+        
+        "custom/grrr",
+    "niri/workspaces",
         "tray",
         "custom/notification",
     ],
@@ -17,6 +20,7 @@
     "modules-center": [
         "clock#secondary",
         "clock",
+        "custom/weather"
     ],
 
     "modules-right": [
@@ -27,6 +31,7 @@
         "pulseaudio",
 	"battery",
     ],
+
 
     "sway/workspaces": {
         "disable-scroll": true,
@@ -39,6 +44,8 @@
         "spacing": 10,
         "tooltip": false
     },
+
+    
 
     "clock": {
         "format": "  {:%I:%M:%S %p}",
@@ -87,10 +94,9 @@
         "on-click": "pavucontrol",
         "tooltip": false
     },
-
+    
     "battery": {
 	"bat": "BAT0",
-	"ac": "AC0",
 	"format": "  {capacity}%",
     },
 
@@ -114,4 +120,13 @@
     "on-click-right": "swaync-client -d -sw",
     "escape": true
     },
+
+    "custom/grrr": {
+      "exec": "bash print_grrr.sh",
+    },
+
+    "custom/weather": {
+      "exec": "curl -s 'wttr.in/Bielefeld?format=1'",
+      "interval": 600
+  },
 }
